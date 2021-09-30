@@ -606,7 +606,7 @@ ChainInstance.start();
   // }, 2000000 * i);
   // }
   ChainInstance.start();
-  console.log(newImage);
+
 
 //   console.log(M2060[answersString] || M4040[answersString]  || M4060[answersString] || M2040[answersString] || M3040[answersString] || M3060[answersString] || M2070[answersString] );
 // console.log(answersString);

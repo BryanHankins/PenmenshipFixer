@@ -34,7 +34,8 @@ body {
   background: black; }
 
 .svgAnimationContainer {
-
+  text-align: center;
+  align-items: center;
   background-color: yellow; }
 
 .SVGDIVcontainer {
@@ -75,8 +76,6 @@ svg, img, canvas {
 
 .canvasImages {
   margin-left: 2rem;
-  text-align: center;
-  align-items: center;
   display: flex; }
 
 .imageletters {
@@ -85,8 +84,8 @@ svg, img, canvas {
   border: none;
   overflow: show;
   stroke: 5;
-  width: 20px;
-  height: 40px; }
+  width: auto;
+  height: 60px; }
 
 .imageletters2 {
   margin: 0;

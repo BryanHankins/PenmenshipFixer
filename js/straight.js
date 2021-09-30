@@ -558,8 +558,8 @@ var MSamples = {
  console.log(MSImage)
  
  let MSImages = {
-  "A": ["img2/A.svg"],
-  "B": ["img2/B.svg"],
+  "A": ["./img2/A.svg"],
+  "B": ["/img2/B.svg"],
   "C": ["img2/C.svg"],
   "D": ["img2/D.svg"],
   "E": ["img2/E.svg"],

@@ -10,15 +10,15 @@
     <title>AnimationProject</title>
 </head>
 
-<body>
-        
+<body class="container">
         <div id="myCanvas" class="SVGDIVcontainer">
+           <div class="canvasImages">
+
+           </div>
             
-            <div class="canvasanimationblock"></div>
-            <div class="canvasanimationblock"></div>
-            <div class="canvasanimationblock"></div>
-        
         </div>
+        
+
     <!-- <div  id="myCanvas "></div> -->
     <form  class="form1 "action="">
         <input type="text" id="fname" name="fname" value="v" >
@@ -35,6 +35,7 @@
     <script type="text/javascript" src="js/letters.js"></script>
     <script type="text/javascript" src="js/i2djs.js"></script>
     <script type="text/javascript" src="js/lodash.js"></script>
+    
     <!-- <script type="text/javascript" src="js/chainanimation.js"></script> -->
 
 <script type="text/javascript" id="animationscript">
@@ -59,7 +60,7 @@
 //         nodes.animatePathTo(this.animateExe({
 //           duration: 1000,
 //           ease: 'linear',
-//           direction: "alternate",
+//        [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]   direction: "alternate",
 
 //         }))
 //       });
@@ -79,13 +80,13 @@
   var nodes = renderer.createEl({ 
             el: "path",
            attr: {
-            d:   "M30,40 a1,1 0 0 1 0,20 a1,1 0 0 1 1,-20  a1,1 0 0 1 0,20  a10,10 90 0 0 0,-20   h10 v30 a10,5 0 0 1 -20,0  "
+            d:   "M40,20   l5,40 l5,-20  l5,20 l5,-40"
             // v- = up  v+ = down h+ = right h- = left
             },
             style: {
                 lineWidth: 5,
-                strokeStyle: "#f00000",
-                shadowColor: "red",
+                strokeStyle: "white",
+                shadowColor: "white",
                 lineCap: "round",
             },
         });

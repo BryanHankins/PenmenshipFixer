@@ -219,13 +219,13 @@
 
 var MSamples = {
   "A" : [
-    "M20,60 v-20 l10,-20 l10,20 v20 v-15 h-20 ",
+    "M20,60 v-20 l10,-20 l10,20 v20 v-20 h-20 h20 v20 ",
    ],
    "B" : [
     "M20,60 v-40  a20,10 0 0 1 0,20   a20,10 0 0 1 0,20 ",
    ],
    "C" : [
-    "M20,60 a5,5 0 0 0 0,40 ",
+    "M40,20 a5,5 0 0 0 0,40 ",
     // need to redo
   ],
   "D" : [
@@ -235,7 +235,7 @@ var MSamples = {
     "M20,20  h20 h-20 v20 h20 h-20 v20 h20 h-20 ",
    ],
    "F" : [
-    "M20,20  h20 h-20 v40 v-20 h20  ",
+    "M20,20  h20 h-20 v40 v-20 h20 h-10 ",
    ],
    "G" : [
     "M30,40 h10 v20 a5,5 0 0 1 0,-40 ",
@@ -268,7 +268,7 @@ var MSamples = {
     "M20,60 v-36  l20,40  v-40  ",
   ],
   "O" : [
-    "M20,20  a10,20 0 0 1 0,40 a10,20 0 0 1 0,-40   ",
+    "M30,20  a10,20 0 0 1 0,40 a10,20 0 0 1 0,-40   ",
 ],
    "P" : [
     "M20,60 v-36 h10 a5,5 0 0 1 5,15 h-15  ",
@@ -280,7 +280,7 @@ var MSamples = {
     "M20,60 v-36 h10 a5,5 0 0 1 5,20 h-15 h15 l5,20 ", 
    ],
    "S" : [
-    "M20,40  h-10 a3,3 0 0 0 0,20  a3,3 0 0 1 0,20 h-10 ",
+    "M20,20  h-10 a3,3 0 0 0 0,20  a3,3 0 0 1 0,20 h-10 ",
    ],
    "T" : [
     "M30,60 v-40 h10 h-20 ",
@@ -304,7 +304,7 @@ var MSamples = {
      "M20,20 h20 l-20,40 h20  ", 
   ],
    "a" : [
-    "M20,40  a5,5 45 0 1 20,0 v20 v-15 a10,4 1 0 0 0,15 ",
+    "M30,40   a1,1 0 0 1 0,20 a1,1 0 0 1 1,-20   h10 v25  ",
    ],
    "b" : [
     "M20,60 v-30 v15 a3,2 1 0 1 0,16  ",
@@ -313,7 +313,7 @@ var MSamples = {
     "M30,40  a5,5 0 0 0 0,20 ",
   ],
    "d" : [
-    "M20,60 v-30 v15 a3,2 1 0 0 0,16 ",
+    "M40,60 v-30 v15 a3,2 1 0 0 0,16 ",
    ],
    "e" : [
     "M20,40 h10 v-10 a5,5 0 0 0 -5,20 h7",
@@ -336,26 +336,26 @@ var MSamples = {
   //  "Have to find a way to make the dot",
   ],
    "k" : [
-    "M20,40 v20 v-10 h2 l20,10  l-20,-10  l20,-10 ",
+    "M20,40 v40 v-20 h2 l20,15  l-20,-15  l20,-7 ",
    ],
    "l" : [
     "M20,40 v40 ",
    ],
    "m" : [
-    "M20,40 M20,60 v-20  v20 a1,3 0 0 1 10,0 a1,3 0 0 1 10,0",
+    "M20,60 v-20  v20 a1,3 0 0 1 10,0 a1,3 0 0 1 10,0",
    ],
    "n" : [
     "M20,60 v-23  v23 a1,2 0 0 1 20,0",
-    // possable replacement " v-20  v20 a1,3 0 0 1 10,0"
+ 
    ],
    "o" : [
     "M30,40  a1,1 0 0 1 0,20 a1,1 0 0 1 1,-20    ",
   ],
   "p" : [
-    "M20,70  v-20  a2.5,5 90 0 1 1,10   "
+    "M30,40  a1,1 0 0 1 0,20 a1,1 0 0 1 1,-20   h-10 v40  "
    ],
     "q" : [
-    "M20,70  v-20  a2.5,5 90 0 0 1,10  "
+    "M30,40   a1,1 0 0 1 0,20 a1,1 0 0 1 1,-20   h10 v40   "
    ],
    "r" : [
     "M30,60  v-20 v7 a40,11 90 0 1 10,5   " 
@@ -364,7 +364,7 @@ var MSamples = {
     "M40,40 a5,5 45 0 0 -5,10   a5,5 45 0 1 -5,10  "
    ],
    "t" : [
-    "M30,60 v-20 v10 h10 h-20 "
+    "M30,60 v-30 v30 v-20 h10 h-20"
    ],
    "u" : [
     "M20,40 v15 a10,10 0 0 0 20,-4 v-10"
@@ -373,7 +373,7 @@ var MSamples = {
     "M20,40  l10,20 l10,-20  "
    ],
    "w" : [
-    "M20,40  l5,20 l5,-20  l5,20 l5,-20 "
+    "M40,20   l5,20 l5,-20  l5,20 l5,-20"
    ],
    "x" : [
     "M20,60  l20,-20  l-10,10 l10,10 l-10,-10 l-10,-10 "
@@ -416,6 +416,214 @@ var MSamples = {
     "M30,40 a1,1 0 0 1 0,20 a1,1 0 0 1 1,-20  a1,1 0 0 1 0,20  a10,10 90 0 0 0,-20   h10 v30 a10,5 0 0 1 -20,0 ",
   ],
  }
+
+ var MSImage =  new Array();
+ MSImage[1] = new Image();
+ MSImage[1].src = "img2/A.svg"
+ console.log(MSImage[1]);
+ MSImage[2] = new Image();
+ MSImage[2].src = "img2/B.svg"
+ MSImage[3] = new Image();
+ MSImage[3].src = "img2/C.svg"
+ MSImage[4] = new Image();
+ MSImage[4].src = "img2/D.svg"
+ MSImage[5] = new Image();
+ MSImage[5].src = "img2/E.svg"
+ MSImage[6] = new Image();
+ MSImage[6].src = "img2/F.svg"
+ MSImage[7] = new Image();
+ MSImage[7].src = "img2/G.svg"
+ MSImage[8] = new Image();
+ MSImage[8].src = "img2/H.svg"
+ MSImage[9] = new Image();
+ MSImage[9].src = "img2/I.svg"
+ MSImage[10] = new Image();
+ MSImage[10].src = "img2/J.svg"
+ MSImage[11] = new Image();
+ MSImage[11].src = "img2/K.svg"
+ MSImage[12] = new Image();
+ MSImage[12].src = "img2/L.svg"
+ MSImage[13] = new Image();
+ MSImage[13].src = "img2/J.svg"
+ MSImage[14] = new Image();
+ MSImage[14].src = "img2/K.svg"
+ MSImage[15] = new Image();
+ MSImage[15].src = "img2/M.svg"
+ MSImage[16] = new Image();
+ MSImage[16].src = "img2/N.svg"
+ MSImage[17] = new Image();
+ MSImage[17].src = "img2/O.svg"
+ MSImage[18] = new Image();
+ MSImage[18].src = "img2/P.svg"
+ MSImage[15] = new Image();
+ MSImage[15].src = "img2/M.svg"
+ MSImage[16] = new Image();
+ MSImage[16].src = "img2/N.svg"
+ MSImage[17] = new Image();
+ MSImage[17].src = "img2/O.svg"
+ MSImage[18] = new Image();
+ MSImage[18].src = "img2/P.svg"
+ MSImage[19] = new Image();
+ MSImage[19].src = "img2/Q.svg"
+ MSImage[20] = new Image();
+ MSImage[20].src = "img2/R.svg"
+ MSImage[21] = new Image();
+ MSImage[21].src = "img2/S.svg"
+ MSImage[22] = new Image();
+ MSImage[22].src = "img2/T.svg"
+ MSImage[23] = new Image();
+ MSImage[23].src = "img2/U.svg"
+ MSImage[24] = new Image();
+ MSImage[24].src = "img2/V.svg"
+ MSImage[25] = new Image();
+ MSImage[25].src = "img2/W.svg"
+ MSImage[26] = new Image();
+ MSImage[26].src = "img2/X.svg"
+ MSImage[27] = new Image();
+ MSImage[27].src = "img2/Y.svg"
+ MSImage[28] = new Image();
+ MSImage[28].src = "img2/Z.svg"
+ MSImage[29] = new Image();
+ MSImage[29].src = "img2/Aa.svg"
+ MSImage[30] = new Image();
+ MSImage[30].src = "img2/Bb.svg"
+ MSImage[31] = new Image();
+ MSImage[31].src = "img2/Cc.svg"
+ MSImage[32] = new Image();
+ MSImage[32].src = "img2/Dd.svg"
+ MSImage[33] = new Image();
+ MSImage[33].src = "img2/Ee.svg"
+ MSImage[34] = new Image();
+ MSImage[34].src = "img2/Ff.svg"
+ MSImage[35] = new Image();
+ MSImage[35].src = "img2/Gg.svg"
+ MSImage[36] = new Image();
+ MSImage[36].src = "img2/Hh.svg"
+ MSImage[37] = new Image();
+ MSImage[37].src = "img2/Ii.svg"
+ MSImage[38] = new Image();
+ MSImage[38].src = "img2/Jj.svg"
+ MSImage[39] = new Image();
+ MSImage[39].src = "img2/Kk.svg"
+ MSImage[40] = new Image();
+ MSImage[40].src = "img2/Ll.svg"
+ MSImage[41] = new Image();
+ MSImage[41].src = "img2/Mm.svg"
+ MSImage[42] = new Image();
+ MSImage[42].src = "img2/Nn.svg"
+ MSImage[40] = new Image();
+ MSImage[40].src = "img2/Oo.svg"
+ MSImage[41] = new Image();
+ MSImage[41].src = "img2/Pp.svg"
+ MSImage[42] = new Image();
+ MSImage[42].src = "img2/Qq.svg"
+ MSImage[43] = new Image();
+ MSImage[43].src = "img2/Rr.svg"
+ MSImage[44] = new Image();
+ MSImage[44].src = "img2/Ss.svg"
+ MSImage[45] = new Image();
+ MSImage[45].src = "img2/Tt.svg"
+ MSImage[46] = new Image();
+ MSImage[46].src = "img2/Uu.svg"
+ MSImage[47] = new Image();
+ MSImage[47].src = "img2/Vv.svg"
+ MSImage[48] = new Image();
+ MSImage[48].src = "img2/Ww.svg"
+ MSImage[49] = new Image();
+ MSImage[49].src = "img2/Xx.svg"
+ MSImage[50] = new Image();
+ MSImage[50].src = "img2/Yy.svg"
+ MSImage[51] = new Image();
+ MSImage[51].src = "img2/Zz.svg"
+ MSImage[52] = new Image();
+ MSImage[52].src = "img2/1.svg"
+ MSImage[53] = new Image();
+ MSImage[53].src = "img2/2.svg"
+ MSImage[54] = new Image();
+ MSImage[54].src = "img2/3.svg"
+ MSImage[55] = new Image();
+ MSImage[55].src = "img2/4.svg"
+ MSImage[56] = new Image();
+ MSImage[56].src = "img2/5.svg"
+ MSImage[57] = new Image();
+ MSImage[57].src = "img2/6.svg"
+ MSImage[58] = new Image();
+ MSImage[58].src = "img2/7.svg"
+ MSImage[59] = new Image();
+ MSImage[59].src = "img2/8.svg"
+ MSImage[60] = new Image();
+ MSImage[60].src = "img2/9.svg"
+ MSImage[61] = new Image();
+ MSImage[61].src = "img2/0.svg"
+ console.log(MSImage)
+ 
+ let MSImages = {
+  "A": ["img2/A.svg"],
+  "B": ["img2/B.svg"],
+  "C": ["img2/C.svg"],
+  "D": ["img2/D.svg"],
+  "E": ["img2/E.svg"],
+  "F": ["img2/F.svg"],
+  "G": ["img2/G.svg"],
+  "H": ["img2/H.svg"],
+  "I": ["img2/I.svg"],
+  "J": ["img2/J.svg"],
+  "K": ["img2/K.svg"],
+  "L": ["img2/L.svg"],
+  "M": ["img2/M.svg"],
+  "N": ["img2/N.svg"],
+  "O": ["img2/O.svg"],
+  "P": ["img2/P.svg"],
+  "Q": ["img2/Q.svg"],
+  "R": ["img2/R.svg"],
+  "S": ["img2/S.svg"],
+  "T": ["img2/T.svg"],
+  "U": ["img2/U.svg"],
+  "V": ["img2/V.svg"],
+  "W": ["img2/W.svg"],
+  "X": ["img2/X.svg"],
+  "Y": ["img2/Y.svg"],
+  "Z": ["img2/Z.svg"],
+  "a": ["img2/Aa.svg"],
+  "b": ["img2/Bb.svg"],
+  "c": ["img2/Cc.svg"],
+  "d": ["img2/Dd.svg"],
+  "e": ["img2/Ee.svg"],
+  "f": ["img2/Ff.svg"],
+  "g": ["img2/Gg.svg"],
+  "h": ["img2/Hh.svg"],
+  "i": ["img2/Ii.svg"],
+  "j": ["img2/Jj.svg"],
+  "k": ["img2/Kk.svg"],
+  "l": ["img2/Ll.svg"],
+  "m": ["img2/Mm.svg"],
+  "n": ["img2/Nn.svg"],
+  "o": ["img2/Oo.svg"],
+  "p": ["img2/Pp.svg"],
+  "q": ["img2/Qq.svg"],
+  "r": ["img2/Rr.svg"],
+  "s": ["img2/Ss.svg"],
+  "t": ["img2/Tt.svg"],
+  "u": ["img2/Uu.svg"],
+  "v": ["img2/Vv.svg"],
+  "w": ["img2/Ww.svg"],
+  "x": ["img2/Xx.svg"],
+  "y": ["img2/Yy.svg"],
+  "z": ["img2/Zz.svg"],
+  "1": ["img2/1.svg"],
+  "2": ["img2/2.svg"],
+  "3": ["img2/3.svg"],
+  "4": ["img2/4.svg"],
+  "5": ["img2/5.svg"],
+  "6": ["img2/6.svg"],
+  "7": ["img2/7.svg"],
+  "8": ["img2/8.svg"],
+  "9": ["img2/9.svg"],
+  "0": ["img2/0.svg"],
+
+ };
+ 
+ console.log(Object.keys(MSImages).length);
 
 
 

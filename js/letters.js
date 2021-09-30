@@ -32,9 +32,13 @@ console.log(typeof answersString);
 let result  = Object.fromEntries(
   Object.entries(answers2).map(([k, v]) => [k, MSamples[v] ])
 );
-
+let resultImage = Object.fromEntries(
+  Object.entries(answers2).map(([k, v]) => [k, MSImages[v] ])
+);
+console.log(Object.keys(resultImage));
+console.log(result);
 console.log(Object.keys(result).length);
-let numbersahkj = Object.keys(result).length;
+let numbersahkj = Object.keys(result);
 
 // console.log(Object.values(MSamples));
 // console.log(typeof result);
@@ -50,8 +54,31 @@ let numbersahkj = Object.keys(result).length;
 //   console.log('YES')
 // }
 newArrays = new Array();
+for (let i = 0; i < Object.keys(resultImage).length; i++) { setTimeout(function () {
+    
+  console.log(resultImage);
+  console.log(resultImage[i]);
+  console.log(resultImage[i].join([]));
+  let result25 = resultImage[i].join([]);
+  console.log(result25);
+  var newImage = new Image();
+
+newImage.src = result25;
+newImage.classList.add('imageletters')
+
+console.log(newImage.src);
+console.log(newImage);
+if (newImage === newImage) { 
+
+  document.getElementById('myCanvas').appendChild(newImage);
+}
+
+
+}, i * 3000);
+} 
 
   for (let i = 0; i < Object.keys(result).length; i++) { 
+    
   if (result === result) {
     console.log(result[i].join());
     // let soultion1 = "M" + ((20 + 20).toString() + "," + (60 + 00).toString() + " " + M2060[answersString]); 
@@ -401,6 +428,30 @@ else if (result22.includes('M10,60')) {
    console.log(result[i]);
    let answer7 = JSON.parse(objectS);
    newArrays.push(answer7);
+}   else if (result22.includes('M40,70')) {
+  let soultion22 = "M" + ((40 + 20 * objloopnumbers).toString() + "," + (70 + 0).toString() + " " );
+  console.log(soultion22);
+  console.log('This is M40,70');
+  console.log(result22.replace('M40,70', soultion22));
+  var answers1 = result22.replace('M40,70', soultion22) ;
+   var objectS = String(answers1); 
+   result[0] = objectS;
+   console.log(JSON.parse(objectS));
+   console.log(result[i]);
+   let answer7 = JSON.parse(objectS);
+   newArrays.push(answer7);
+} else if (result22.includes('M40,20')) {
+  let soultion22 = "M" + ((40 + 20 * objloopnumbers).toString() + "," + (20 + 0).toString() + " " );
+  console.log(soultion22);
+  console.log('This is M40,20');
+  console.log(result22.replace('M40,20', soultion22));
+  var answers1 = result22.replace('M40,20', soultion22) ;
+   var objectS = String(answers1); 
+   result[0] = objectS;
+   console.log(JSON.parse(objectS));
+   console.log(result[i]);
+   let answer7 = JSON.parse(objectS);
+   newArrays.push(answer7);
 } 
 else () => {
   console.log('Something is wrong');
@@ -479,6 +530,9 @@ ChainInstance.start();
   ChainInstance.start();
   }
   console.log(newArrays.length);
+  // Bellow is the the implementation
+  
+
   
   for (let i = 0; i < newArrays.length; i++) { setTimeout(function () {
     
@@ -504,7 +558,8 @@ ChainInstance.start();
     direction: "alternate",
 })
 
-
+// HAVE A WAY TO CREATE A IMAGE tab <img src=""> </img>
+// and have it be created with an added class="imageletters"
 //    var answers4 = renderer.createEls(data, {
 //     el:'path',
 //     attr:{
@@ -551,11 +606,64 @@ ChainInstance.start();
   // }, 2000000 * i);
   // }
   ChainInstance.start();
+  console.log(newImage);
 
 //   console.log(M2060[answersString] || M4040[answersString]  || M4060[answersString] || M2040[answersString] || M3040[answersString] || M3060[answersString] || M2070[answersString] );
 // console.log(answersString);
+for (let i = 0; i < resultImage.length; i++) { setTimeout(function () {
+    
+  
+  console.log(resultImage);
+  let result22 = JSON.stringify(resultImage[i]);
+  let result2 = resultImage[i].join();    
+  console.log(result2);
 
-}
+
+
+// HAVE A WAY TO CREATE A IMAGE tab <img src=""> </img>
+// and have it be created with an added class="imageletters"
+//    var answers4 = renderer.createEls(data, {
+//     el:'path',
+//     attr:{
+//         d = answers3
+//     }
+  
+// }).animatePathTo({
+//   duration: 1000,
+//   loop: 1,
+//   ease: "linear",
+//   direction: "alternate",
+// })
+
+//  newArrays.forEach(( sss) => {
+//   setTimeout(() => {
+//     let answers3 = nodes.setAttr('d', result2);
+    
+//   },  2000);
+  
+//   });
+  // newArrays.forEach((answers3, i) => {
+  //   setTimeout(() => {
+  //     let answers3 = nodes.setAttr('d', result2);
+  //   }, i * 4000);  // one sec interval
+  //  });
+
+   console.log(result2);
+
+  // let start = 1
+  // setTimeout(function(){
+  //   let interval = setInterval(function(){
+  //     if(start == 10) clearInterval(interval)
+  //     start++
+  //     let answers3 = nodes.setAttr('d', result2);
+  //   }, 3000)
+  // }, 3000)
+
+}, i * 2000);
+
+}}
+
+
 
   // var Answers = document.getElementById('fname').value;
   // var answers2 = document.getElementById('fname').value;

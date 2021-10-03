@@ -1,3 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="100">
-            <path d="M20,40  l10,20 l10,-20   " stroke="white" stroke-width="5"/>
-         </svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.47 60"><defs><style>.cls-1,.cls-2{fill:none;}.cls-2{stroke:#fff;stroke-width:5px;}</style></defs><title>Vv</title><rect class="cls-1" x="3.94" width="20" height="20"/><rect class="cls-1" x="3.94" y="40" width="20" height="20"/><path class="cls-2" d="M0,20,10,40,20,20" transform="translate(2.24 -5.74)"/></svg>

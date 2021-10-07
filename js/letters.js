@@ -54,28 +54,28 @@ let numbersahkj = Object.keys(result);
 //   console.log('YES')
 // }
 newArrays = new Array();
-// for (let i = 0; i < Object.keys(resultImage).length; i++) { setTimeout(function () {
+for (let i = 0; i < Object.keys(resultImage).length; i++) { setTimeout(function () {
     
-//   console.log(resultImage);
-//   console.log(resultImage[i]);
-//   console.log(resultImage[i].join([]));
-//   let result25 = resultImage[i].join([]);
-//   console.log(result25);
-//   var newImage = new Image();
+  console.log(resultImage);
+  console.log(resultImage[i]);
+  console.log(resultImage[i].join([]));
+  let result25 = resultImage[i].join([]);
+  console.log(result25);
+  var newImage = new Image();
 
-// newImage.src = result25;
-// newImage.classList.add('imageletters')
+newImage.src = result25;
+newImage.classList.add('imageletters')
 
-// console.log(newImage.src);
-// console.log(newImage);
-// if (newImage === newImage) { 
+console.log(newImage.src);
+console.log(newImage);
+if (newImage === newImage) { 
 
-//   document.getElementById('myCanvas').appendChild(newImage);
-// }
+  document.getElementById('myCanvas').appendChild(newImage);
+}
 
 
-// }, i  * 2800);
-// } 
+}, i * 3000);
+} 
 
   for (let i = 0; i < Object.keys(result).length; i++) { 
     
@@ -552,7 +552,7 @@ ChainInstance.start();
    ChainInstance.start();
    let answers3 = nodes.setAttr('d', result2);
    answers3.animatePathTo({
-    duration: 3000,
+    duration: 1000,
     loop: 1,
     ease: "linear",
     direction: "alternate",
@@ -597,30 +597,71 @@ ChainInstance.start();
     //   }, 3000)
     // }, 3000)
 
-}, i * 3500);
+}, i * 2000);
 ChainInstance.start();
 }
-for (let i = 0; i < Object.keys(resultImage).length; i++) { setTimeout(function () {
-  let result25 = resultImage[i].join([]);
-  var newImage = new Image();
-newImage.src = result25;
-newImage.classList.add('imageletters')
-if (newImage === newImage) { 
-  document.getElementById('myCanvas').appendChild(newImage);
-}
-}, i  * 3500);
-} 
   // function result2() {
   //   setTimeout(function() {
   //     let answers3 = nodes.setAttr('d', result2);
   // }, 2000000 * i);
   // }
   ChainInstance.start();
-  console.log(newImage);
+
 
 //   console.log(M2060[answersString] || M4040[answersString]  || M4060[answersString] || M2040[answersString] || M3040[answersString] || M3060[answersString] || M2070[answersString] );
 // console.log(answersString);
-}
+for (let i = 0; i < resultImage.length; i++) { setTimeout(function () {
+    
+  
+  console.log(resultImage);
+  let result22 = JSON.stringify(resultImage[i]);
+  let result2 = resultImage[i].join();    
+  console.log(result2);
+
+
+
+// HAVE A WAY TO CREATE A IMAGE tab <img src=""> </img>
+// and have it be created with an added class="imageletters"
+//    var answers4 = renderer.createEls(data, {
+//     el:'path',
+//     attr:{
+//         d = answers3
+//     }
+  
+// }).animatePathTo({
+//   duration: 1000,
+//   loop: 1,
+//   ease: "linear",
+//   direction: "alternate",
+// })
+
+//  newArrays.forEach(( sss) => {
+//   setTimeout(() => {
+//     let answers3 = nodes.setAttr('d', result2);
+    
+//   },  2000);
+  
+//   });
+  // newArrays.forEach((answers3, i) => {
+  //   setTimeout(() => {
+  //     let answers3 = nodes.setAttr('d', result2);
+  //   }, i * 4000);  // one sec interval
+  //  });
+
+   console.log(result2);
+
+  // let start = 1
+  // setTimeout(function(){
+  //   let interval = setInterval(function(){
+  //     if(start == 10) clearInterval(interval)
+  //     start++
+  //     let answers3 = nodes.setAttr('d', result2);
+  //   }, 3000)
+  // }, 3000)
+
+}, i * 2000);
+
+}}
 
 
 

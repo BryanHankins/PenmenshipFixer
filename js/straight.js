@@ -419,12 +419,12 @@ var MSamples = {
 
  var MSImage =  new Array();
  MSImage[1] = new Image();
- MSImage[1].src = "../img2/A.svg"
+ MSImage[1].src = "img2/A.svg"
  console.log(MSImage[1]);
  MSImage[2] = new Image();
- MSImage[2].src = "/img2/B.svg"
+ MSImage[2].src = "img2/B.svg"
  MSImage[3] = new Image();
- MSImage[3].src = "./img2/C.svg"
+ MSImage[3].src = "img2/C.svg"
  MSImage[4] = new Image();
  MSImage[4].src = "img2/D.svg"
  MSImage[5] = new Image();
@@ -475,7 +475,7 @@ var MSamples = {
  MSImage[23].src = "img2/U.svg"
  MSImage[24] = new Image();
  MSImage[24].src = "img2/V.svg"
- MSImage[25] = new Image();
+ MSImage[25] = new Image();[]
  MSImage[25].src = "img2/W.svg"
  MSImage[26] = new Image();
  MSImage[26].src = "img2/X.svg"

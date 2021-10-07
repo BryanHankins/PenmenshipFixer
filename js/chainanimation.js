@@ -1,21 +1,10 @@
 
 var renderer_ = i2d.canvasLayer('#Mycanvas', {}, {});
-       
-
-    
-    
-    
-    
-        
-   
   var nodes = renderer_.createEl({ 
             el: "group",
            attr: {
             d: 'M20,36  l10,16 l10,-16',
-            
             },
-            
-
         });
         nodes.animatePathTo({
             duration: 1000,

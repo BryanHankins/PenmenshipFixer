@@ -415,6 +415,9 @@ var MSamples = {
  "9": [
     "M30,40 a1,1 0 0 1 0,20 a1,1 0 0 1 1,-20  a1,1 0 0 1 0,20  a10,10 90 0 0 0,-20   h10 v30 a10,5 0 0 1 -20,0 ",
   ],
+  " " : [
+    "M20,40"
+  ]
  }
 
  var MSImage =  new Array();
@@ -620,7 +623,7 @@ var MSamples = {
   "8": ["img2/8.svg"],
   "9": ["img2/9.svg"],
   "0": ["img2/0.svg"],
-
+  " ": ["img2/Space.svg"],
  };
  
  console.log(Object.keys(MSImages).length);

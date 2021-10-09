@@ -1,16 +1,6 @@
 function test() {
   
 
-  
-
-  // let numberOfIterations = 5; // number of uses 
-  // // I will have to have the number of iterations detect the amount of letters/numbers the user puts in 
-  // let i = 0;
-  // let sum = 0;
-  // while(i++ < answersSplit.length) {
-  //   sum += i === 0 ? 40 : 20 ;
-  // }
-
   var answers2 = document.getElementById('fname').value;
   console.log(answers2);
 var input = document.getElementById("buttonlog").value;
@@ -19,14 +9,6 @@ const timer = ms => new Promise(res => setTimeout(res, ms))
 
 let answersString = Object.entries(answers2);
 
-console.log(answersString);
-console.log(typeof answersString);
-
-
-// var answersObject = _.invert(answersString);
-// console.log(answersObject);
-// console.log(Object.values(answersString));
-// let answers5 = Object.values(answersString);
 
 
 let result  = Object.fromEntries(
@@ -40,22 +22,8 @@ console.log(result);
 console.log(Object.keys(result).length);
 let numbersahkj = Object.keys(result);
 
-// console.log(Object.values(MSamples));
-// console.log(typeof result);
-// console.log(result.includes('M20,60'))
-
-// Bellow is a way how I can turn an array to a string then back into a array
-// const fruits = ["Banana", "Orange", "Apple", "Mango"] 
-// let text = fruits.toString();
-// console.log(text);
-// let MyFruits = text.split(",")
-// console.log(MyFruits);
-// if ("A".includes('M20,60')) {
-//   console.log('YES')
-// }
 newArrays = new Array();
 for (let i = 0; i < Object.keys(resultImage).length; i++) { setTimeout(function () {
-    
   console.log(resultImage);
   console.log(resultImage[i]);
   console.log(resultImage[i].join([]));
@@ -74,7 +42,7 @@ if (newImage === newImage) {
 }
 
 
-}, i * 3000);
+}, i * 1000);
 } 
 
   for (let i = 0; i < Object.keys(result).length; i++) { 
@@ -452,6 +420,8 @@ else if (result22.includes('M10,60')) {
    console.log(result[i]);
    let answer7 = JSON.parse(objectS);
    newArrays.push(answer7);
+}  else if (result22.includes('M20,80')) {
+  console.log('This is a space')
 } 
 else () => {
   console.log('Something is wrong');
@@ -459,60 +429,7 @@ else () => {
 console.log(newArrays);
 ChainInstance.start();
 //  let result3 = soultion2.split("''");
- 
 
-//  console.log(typeof result3);
-//  console.log(typeof result)
-//     result3.push(i);
-//     console.log(result);
-
-
-  //   result3.push(result);
-  // console.log(result3.push(result));
-
-    // check if what number in the order it is
-//   } else if (result.includes('M40,40') ) {
-//     let soultion2 = "M" + ((40 + 20).toString() + "," + (40 + 00).toString() + " " + M4040[answersString]); 
-//     console.log('this is M40,40');
-// console.log(soultion2);
-//   } else if (result.includes('M40,60') ) {
-   
-//     console.log('this is M40,60');
-//     console.log(soultion);
-//     return soultion;
-//     // check if what number in the order it is
-
-//     // check if what number in the order it is
-//   } else if (result.includes('M20,40') ) {
-//     let soultion = "M" + ((20 + 20).toString() + "," + (40 + 00).toString() + " " + M2040[answersString]); 
-//     console.log('this is M20,40');
-//     console.log(soultion);
-//     console.log(typeof soultion);
-//     return soultion;
-//     // check if what number in the order it is
-//   } else if (result.includes('M30,40')) {
-//     let soultion = "M" + ((30 + 20).toString() + "," + (40 + 00).toString() + " " + M3040[answersString]); 
-//     console.log('this is M30,40');
-//     console.log(soultion);
-//     console.log(typeof soultion);
-//     return soultion;
-//     // check if what number in the order it is
-//   }
-//   else if (result.includes('M30,60')) {
-//     let soultion = "M" + ((30 + 20).toString() + "," + (60 + 00).toString() + " " + M3060[answersString]); 
-//     console.log('this is M30,60');
-//     console.log(soultion);
-//     console.log(typeof soultion);
-//     // check if what number in the order it is
-//     return soultion;
-  // }
-  // else if (result.includes('M20,70') ) {
-  //   let soultion = "M" + ((20 + 20).toString() + "," + (70 + 00).toString() + " " + M2070[answersString]); 
-  //   console.log('this is M20,70');
-  //   console.log(soultion);
-  //   console.log(typeof soultion);
-  //   return soultion;[p]
-    // check if what number in the order it is
 
   } else () => {
   console.log('something is wrong');
@@ -535,7 +452,7 @@ ChainInstance.start();
 
   
   for (let i = 0; i < newArrays.length; i++) { setTimeout(function () {
-    
+  
   
     console.log(newArrays[i]);
     let result22 = JSON.stringify(newArrays[i]);
@@ -558,110 +475,17 @@ ChainInstance.start();
     direction: "alternate",
 })
 
-// HAVE A WAY TO CREATE A IMAGE tab <img src=""> </img>
-// and have it be created with an added class="imageletters"
-//    var answers4 = renderer.createEls(data, {
-//     el:'path',
-//     attr:{
-//         d = answers3
-//     }
-    
-// }).animatePathTo({
-//   duration: 1000,
-//   loop: 1,
-//   ease: "linear",
-//   direction: "alternate",
-// })
 
-  //  newArrays.forEach(( sss) => {
-  //   setTimeout(() => {
-  //     let answers3 = nodes.setAttr('d', result2);
-      
-  //   },  2000);
-    
-  //   });
-    // newArrays.forEach((answers3, i) => {
-    //   setTimeout(() => {
-    //     let answers3 = nodes.setAttr('d', result2);
-    //   }, i * 4000);  // one sec interval
-    //  });
+}, i * 1000); 
 
-     console.log(result2);
+// for (let i = 0; i < resultImage.length; i++) { 
+//   let result22 = JSON.stringify(resultImage[i]);
+//   let result2 = resultImage[i].join();    
 
-    // let start = 1
-    // setTimeout(function(){
-    //   let interval = setInterval(function(){
-    //     if(start == 10) clearInterval(interval)
-    //     start++
-    //     let answers3 = nodes.setAttr('d', result2);
-    //   }, 3000)
-    // }, 3000)
-
-}, i * 2000);
-ChainInstance.start();
+// }
 }
-  // function result2() {
-  //   setTimeout(function() {
-  //     let answers3 = nodes.setAttr('d', result2);
-  // }, 2000000 * i);
-  // }
-  ChainInstance.start();
 
-
-//   console.log(M2060[answersString] || M4040[answersString]  || M4060[answersString] || M2040[answersString] || M3040[answersString] || M3060[answersString] || M2070[answersString] );
-// console.log(answersString);
-for (let i = 0; i < resultImage.length; i++) { setTimeout(function () {
-    
-  
-  console.log(resultImage);
-  let result22 = JSON.stringify(resultImage[i]);
-  let result2 = resultImage[i].join();    
-  console.log(result2);
-
-
-
-// HAVE A WAY TO CREATE A IMAGE tab <img src=""> </img>
-// and have it be created with an added class="imageletters"
-//    var answers4 = renderer.createEls(data, {
-//     el:'path',
-//     attr:{
-//         d = answers3
-//     }
-  
-// }).animatePathTo({
-//   duration: 1000,
-//   loop: 1,
-//   ease: "linear",
-//   direction: "alternate",
-// })
-
-//  newArrays.forEach(( sss) => {
-//   setTimeout(() => {
-//     let answers3 = nodes.setAttr('d', result2);
-    
-//   },  2000);
-  
-//   });
-  // newArrays.forEach((answers3, i) => {
-  //   setTimeout(() => {
-  //     let answers3 = nodes.setAttr('d', result2);
-  //   }, i * 4000);  // one sec interval
-  //  });
-
-   console.log(result2);
-
-  // let start = 1
-  // setTimeout(function(){
-  //   let interval = setInterval(function(){
-  //     if(start == 10) clearInterval(interval)
-  //     start++
-  //     let answers3 = nodes.setAttr('d', result2);
-  //   }, 3000)
-  // }, 3000)
-
-}, i * 2000);
-
-}}
+}
 
 
 
